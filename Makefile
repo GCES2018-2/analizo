@@ -20,6 +20,7 @@ exec:
 	@echo "*********************************\n"
 	@echo "Entering Analizo environment!\n"
 	@echo "*********************************\n"
+	@docker start analizo
 	@docker exec -it analizo bash
 
 help:
